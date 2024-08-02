@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.btn, .btn-primary, .btn-danger, .btn-success, .btn-warning {
+    background-color: black !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    cursor: pointer !important;
+}
+
+.btn:hover, .btn-primary:hover, .btn-danger:hover, .btn-success:hover, .btn-warning:hover {
+    background-color: #333 !important;
+}
+
+.link-black {
+    color: black !important;
+    text-decoration: none;
+}
+
+.link-black:hover {
+    color: #555 !important;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .d-flex {
+        flex-direction: column !important;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+
+    .btn {
+        padding: 6px 12px;
+    }
+}

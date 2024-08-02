@@ -1,0 +1,27 @@
+.customer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0; 
+}
+
+.customer-item a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.customer-item a:hover {
+    text-decoration: underline; 
+}
+
+@media (max-width: 768px) {
+    .customer-item {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    .customer-item a {
+        margin: 5px 0; 
+    }
+}

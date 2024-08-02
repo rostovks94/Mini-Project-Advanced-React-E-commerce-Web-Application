@@ -1,0 +1,30 @@
+.product-detail-container .product-image {
+    width: 450px;
+    height: 450px; 
+    object-fit: cover; 
+}
+
+
+.product-detail-container {
+    margin-top: 20px; 
+}
+
+.product-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+@media (min-width: 768px) {
+    .product-image {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+}

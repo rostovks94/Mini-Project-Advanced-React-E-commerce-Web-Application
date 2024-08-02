@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Fluffy Mugster",
+        "price": 19.99,
+        "image": "/images/image1.jpg",
+        "description": "Meet Fluffy Mugster, your new coffee buddy! This fuzzy mug adds a touch of whimsy to your morning routine with its soft, furry exterior and wide, curious eyes."
+    },
+    {
+        "id": 2,
+        "name": "Woolly Winker",
+        "price": 29.99,
+        "image": "/images/image2.jpg",
+        "description": "Introducing Woolly Winker! This quirky mug with its oversized eyes is perfect for those who love a bit of fun with their beverages. It's sure to bring a smile to your face every time you take a sip."
+    },
+    {
+        "id": 3,
+        "name": "Furry Fella",
+        "price": 39.99,
+        "image": "/images/image3.jpg",
+        "description": "Say hello to Furry Fella! This adorable mug is covered in fluffy fur and features a lovable, wide-eyed expression that makes it a delightful companion for any drink."
+    },
+    {
+        "id": 4,
+        "name": "Shaggy Sipper",
+        "price": 49.99,
+        "image": "/images/image4.jpg",
+        "description": "Meet Shaggy Sipper, the ultimate fuzzy mug! With its wild hair and googly eyes, this mug is perfect for those who enjoy a bit of character and charm with their coffee or tea."
+    }
+]
