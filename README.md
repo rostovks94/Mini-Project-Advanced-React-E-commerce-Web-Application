@@ -108,12 +108,12 @@ To run this project locally, follow the steps below:
 
 2. **Install dependencies**:
 ```bash
-npm install
+  npm install
 ````
 
 3. **Start the development server**:
 ```bash
-   npm run dev
+  npm run dev
 ```
 By default, the app will be available at http://localhost:5173.
 
