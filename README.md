@@ -91,11 +91,11 @@ Users can:
 └── README.md
 ```
 ## Tech Stack
-**Frontend**: React, TypeScript, Redux Toolkit, Bootstrap
-**State Management**: Redux Toolkit
-**Data Fetching**: React Query
-**Backend API**: FakeStoreAPI
-**Authentication**: Auth0
+- **Frontend**: React, TypeScript, Redux Toolkit, Bootstrap
+- **State Management**: Redux Toolkit
+- **Data Fetching**: React Query
+- **Backend API**: FakeStoreAPI
+- **Authentication**: Auth0
 
 ## Installation and Setup
 To run this project locally, follow the steps below:
